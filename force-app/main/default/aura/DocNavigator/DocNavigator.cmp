@@ -1,0 +1,26 @@
+<aura:component implements="flexipage:availableForAllPageTypes"
+	                access="global">
+
+	<lightning:card  title="Lightning Dev Links" iconName="utility:connected_apps">
+		
+	    <p class="slds-p-horizontal_medium">
+	        <a href="/componentReference/suite.app" target="_blank">
+				Component Reference Library
+			</a>
+	    </p>
+		
+		<p class="slds-p-horizontal_medium">
+			<a href="/auradocs/reference.app" target="_blank">
+				Older AuraDoc Reference
+			</a>
+	    </p>
+		
+		<p class="slds-p-horizontal_medium">
+			<a href="https://www.lightningdesignsystem.com/" target="_blank">
+				Lightning Design System
+			</a>
+	    </p>
+		
+	</lightning:card>
+
+</aura:component>
